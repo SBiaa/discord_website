@@ -1,0 +1,25 @@
+.header{
+    background-color: var(--brand);
+
+}
+.header_top {
+    padding: 0 24px;
+    display: flex;
+}
+.header_top .logo img {
+width: 124px;
+height: 34px;
+}
+.header_top .header_options{
+    display: flex;
+}
+.header_top .login p{
+    color: var(--not-quite-black);
+    background-color: var(--white);
+    margin: 0 16px 0 0;
+    font-size: 14px;
+    padding: 7px 16px;
+    display: inline-flex;
+    border-radius: 40px;
+}
+
